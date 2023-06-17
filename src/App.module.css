@@ -1,7 +1,8 @@
-  .html{
-    box-sizing: border-box;
+  .Background{
+    background-image: url(./img/bgc.svg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
-  *, *::after, *::before{
-    box-sizing: inherit;
-  }
+  

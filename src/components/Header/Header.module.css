@@ -1,3 +1,45 @@
-.main_logo{
+.Header{
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: row;
+    box-sizing: border-box;
+    z-index: 2;
+    height: 120px;
+    width: auto; 
+    padding: 40px 80px;
+}
+
+.header_box{
     
+}
+
+.nav_panel{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_item{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_link{
+
+}
+
+.header_user_button{
+
+}
+
+.user{
+
+}
+
+.user_button{
+
 }

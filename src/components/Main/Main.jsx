@@ -5,7 +5,9 @@ const Main = () => {
   return (
     <>
         <main className={styles.Main}>
-          Main
+          <div className={styles.text}>
+            Main
+          </div>
         </main>
     </>
   )

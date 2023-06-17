@@ -1,15 +1,71 @@
 import React from 'react'
 import styles from "./Header.module.css"
-import Logo from "./logo.svg"
+import Logo from "../../img/logo.svg"
 
 const Header = () => {
   return (
     < >
-        <header className={styles.Header}>
-            <img src="Logo" alt="logo" className="main_logo" />
-            Header
+      <header className={styles.Header}>
 
-        </header>
+        <div className={styles.header_box}>
+          <a href="/" className={styles.header_link}>
+            <img src={Logo} alt="logo" />
+          </a>
+        </div>
+
+        <nav className={styles.nav_panel}>
+
+          <ul className={styles.menu_list}>
+
+            <li className={styles.menu_item}>
+              <a href="/" className={styles.menu_link}>
+                Главная
+              </a>
+            </li>
+
+            <li className={styles.menu_item}>
+              <a href="/" className={styles.menu_link}>
+                Курсы
+              </a>
+            </li>
+
+            <li className={styles.menu_item}>
+              <a href="/" className={styles.menu_link}>
+                Расписание
+              </a>
+            </li>
+
+            <li className={styles.menu_item}>
+              <a href="/" className={styles.menu_link}>
+                Преподаватели
+              </a>
+            </li>
+
+            <li className={styles.menu_item}>
+              <a href="/" className={styles.menu_link}>
+                Рассылка
+              </a>
+            </li>
+            
+            <li className={styles.menu_item}>
+              <a href="/" className={styles.menu_link}>
+                Контакты
+              </a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <div className={styles.header_user_button}>
+          <a href="/" className={styles.user}>
+            <img src="" alt="" className={styles.user_button} />
+          </a>
+        </div>
+
+        
+
+      </header>
     </>
   )
 }
