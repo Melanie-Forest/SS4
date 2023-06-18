@@ -46,7 +46,7 @@ const Header = () => {
                 Рассылка
               </a>
             </li>
-            
+
             <li className={styles.menu_item}>
               <a href="/" className={styles.menu_link}>
                 Контакты
@@ -63,7 +63,7 @@ const Header = () => {
           </a>
         </div>
 
-        
+
 
       </header>
     </>

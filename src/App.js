@@ -7,7 +7,10 @@ import Background from "./img/bgc.svg"
 function App() {
   return (
     <div className={styles.Background}>
-      <Header />
+
+      <div className={styles.Main_screen}>
+        <Header />
+      </div>
 
       <Main />
 

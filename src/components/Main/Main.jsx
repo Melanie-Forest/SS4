@@ -4,11 +4,11 @@ import styles from "./Main.module.css"
 const Main = () => {
   return (
     <>
-        <main className={styles.Main}>
-          <div className={styles.text}>
-            Main
-          </div>
-        </main>
+      <main className={styles.Main}>
+        <div className={styles.text}>
+          Main
+        </div>
+      </main>
     </>
   )
 }

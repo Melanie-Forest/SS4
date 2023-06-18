@@ -1,12 +1,11 @@
-.Main{
+.Main {
     display: flex;
     flex: 2 0 auto;
     flex-direction: row;
     box-sizing: border-box;
-    z-index: 2;
     padding: 0 312px;
 }
 
-.text{
+.text {
     color: aliceblue;
 }
