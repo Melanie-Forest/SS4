@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./Header.module.css"
 import Logo from "../../img/logo.svg"
+import User from "../../img/main-screen__button.svg"
 
 const Header = () => {
   return (
@@ -59,7 +60,7 @@ const Header = () => {
 
         <div className={styles.header_user_button}>
           <a href="/" className={styles.user}>
-            <img src="" alt="" className={styles.user_button} />
+            <img src={User} alt="lk" className={styles.user_button} />
           </a>
         </div>
 

@@ -1,0 +1,19 @@
+.MainScreen {
+    display: flex;
+    flex: 2 0 auto;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0 312px;
+}
+
+.Main_page{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    height: 710px;
+    background-color: blueviolet;
+}
+
+.Main_line{
+
+}

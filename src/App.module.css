@@ -33,16 +33,19 @@
 
   .Background {
     background-image: url(./img/bgc.svg);
-    height: 100vh;
+    width: 1920px;
+    height: 6599px;
     display: flex;
     flex-direction: column;
     font-size: 16px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    zoom:0.8;
   }
 
   .Main_screen{
     background-image: url(./img/main-screen__bgc.svg);
-    
+    width: 1920px;
+    height: 960px;
   }
