@@ -3,7 +3,7 @@
     flex: 2 0 auto;
     flex-direction: row;
     box-sizing: border-box;
-    padding: 0 312px;
+    padding: 0 312px 0 auto;
 }
 
 .text {
