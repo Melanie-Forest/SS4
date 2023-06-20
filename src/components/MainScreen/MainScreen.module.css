@@ -1,7 +1,7 @@
 .MainScreen {
     display: flex;
     flex: 2 0 auto;
-    flex-direction: row;
+    flex-direction: column;
     box-sizing: border-box;
     padding: 0 312px 0 auto;
 }
@@ -68,8 +68,33 @@
 
 .Main_line{
     display: inherit;
-    flex-direction: column;
+    flex-direction: row;
     box-sizing: inherit;
     background-color: #121212;
     padding: 36px 312px;
+    width: 1899px;
+    height: 130px;
+}
+
+.Main_line_button{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    justify-content: center;
+}
+
+.line_button{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+}
+
+.line__button{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 169px;
+    height: 44px;
+    border-color: none;
+    background-image: url(../../img/main-screen__button--active.svg);
 }

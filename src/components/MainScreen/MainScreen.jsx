@@ -8,6 +8,7 @@ const Main = () => {
 
         <div className={styles.Main_page}>
           <div className={styles.Main_page_box}>
+
             <h1 className={styles.Main_page_h}>
               Первый курс по компьютерной сборке
             </h1>
@@ -52,7 +53,17 @@ const Main = () => {
         </div>
 
         <div className={styles.Main_line}>
-          aaaaaaaaaaaaaa
+          
+          <div className={styles.Main_line_button}>
+            <a href='/' className={styles.Main_line_button}>
+              <img src="/" alt="" className={styles.line__button} />
+            </a>
+          </div>
+
+          <div className={styles.Main_line_bar}>
+            
+          </div>
+
         </div>
 
       </main>
