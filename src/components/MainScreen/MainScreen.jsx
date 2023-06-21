@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./MainScreen.module.css"
+import button1 from "../../img/main-screen__button--active.svg"
 
 const Main = () => {
   return (
@@ -52,19 +53,81 @@ const Main = () => {
           </div>
         </div>
 
+
+
         <div className={styles.Main_line}>
-          
+
           <div className={styles.Main_line_button}>
             <a href='/' className={styles.Main_line_button}>
-              <img src="/" alt="" className={styles.line__button} />
+              <img src={button1} alt="" />
             </a>
           </div>
 
-          <div className={styles.Main_line_bar}>
-            
+          <div className={styles.line_table}>
+            <div className={styles.Main_line_table1}>
+
+              <div className={styles.table_item}>
+                Учеников всего:
+              </div>
+
+              <div className={styles.center_line_bar}>
+
+              </div>
+
+              <div className={styles.table_item}>
+                Успешно закончили курс:
+              </div>
+
+            </div>
+
+            <div className={styles.Main_line_table2}>
+
+              <div className={styles.table_item}>
+                200
+              </div>
+
+              <div className={styles.center_line_bar}>
+
+              </div>
+
+              <div className={styles.table_item}>
+                190
+              </div>
+
+            </div>
+          </div>
+
+          <div className={styles.line_bar}>
+
+            <div className={styles.line_bar_box}>
+              <div className={styles.bar_box1}>
+                Заработано учениками:
+              </div>
+              <div className={styles.bar_box2}>
+                400 000p
+              </div>
+            </div>
+
+            <div className={styles.center_line_bar}>
+              <div className={styles.pg_neeed}></div>
+              <div className={styles.pg_compleete}></div>
+            </div>
+
+            <div className={styles.line_bar_box2}>
+              <div className={styles.bar_box3}>
+                0
+              </div>
+              <div className={styles.bar_box4}>
+                1 000 000 
+              </div>
+            </div>
+
+
           </div>
 
         </div>
+
+
 
       </main>
     </>

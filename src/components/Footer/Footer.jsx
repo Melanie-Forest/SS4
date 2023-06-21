@@ -27,7 +27,7 @@ const Footer = () => {
           <div className={styles.footer_item3}>
 
             <form action="/" className={styles.footer_mail}>
-              <input type="email" title='Email' className={styles.footer_form_mail} />
+              <input type="email" title="Email" className={styles.footer_form_mail} />
             </form>
             
             <form action="/" className={styles.footer_button}>

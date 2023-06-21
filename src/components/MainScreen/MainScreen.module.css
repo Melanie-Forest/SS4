@@ -66,6 +66,7 @@
 }
 
 
+
 .Main_line{
     display: inherit;
     flex-direction: row;
@@ -74,6 +75,7 @@
     padding: 36px 312px;
     width: 1899px;
     height: 130px;
+    color:white;
 }
 
 .Main_line_button{
@@ -96,5 +98,104 @@
     width: 169px;
     height: 44px;
     border-color: none;
-    background-image: url(../../img/main-screen__button--active.svg);
 }
+
+.line_table{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    padding: 0 81px;
+    width: 413px;
+    
+    vertical-align: middle;
+}
+
+.Main_line_table1{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 223px;
+    opacity: 0.4;
+}
+
+.Main_line_table2{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 28px;
+    font-weight: 700; 
+}
+
+.table_item{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    height: 24px;
+}
+
+.center_line_bar{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: 10px;
+    
+}
+
+.line_bar{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 714px;
+    
+}
+
+.line_bar_box{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: 24px;
+    vertical-align: middle;
+    margin: 0 0 8px 0;
+}
+
+.bar_box1{
+    opacity: 0.4;
+}
+
+.bar_box2{
+    font-weight: 700; 
+    margin: 0 30px;
+}
+
+.line_bar_box2{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    justify-content: space-between;
+    height: 24px;
+    vertical-align: middle;
+    margin: 5px 0 8px 0;
+}
+
+.bar_box3{
+    opacity: 0.4;
+    display: inherit;
+}
+
+.bar_box4{
+    opacity: 0.4;
+    display: inherit;
+}
+
+.pg_neeed{
+    width: 440px;
+    height: 6px;
+    background-image: url(../../img/costline1.svg);
+}
+
+.pg_compleete{
+    width: 274px;
+    height: 6px;
+    background-image: url(../../img/costline2.svg);
+}
+
