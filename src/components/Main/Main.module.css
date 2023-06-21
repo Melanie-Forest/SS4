@@ -1,11 +1,40 @@
 .Main {
     display: flex;
     flex: 2 0 auto;
-    flex-direction: row;
+    flex-direction: column;
     box-sizing: border-box;
-    padding: 0 312px 0 auto;
+    margin: 0 291px 0 312px;
+    color: white;
 }
 
-.text {
-    color: aliceblue;
+.what_it_is{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    margin: 200px 0 0 0;
+    height: max-content;
+    align-content: stretch
+}
+
+.wts_card{
+    width: 50%;
+    color: white;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.wts_text_head{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 69px 0 45px 0;
+}
+
+.fast_starting{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    margin: 200px 0 0 0;
+    height: max-content;
+    align-content: stretch;
+    background-color: aquamarine;
 }
