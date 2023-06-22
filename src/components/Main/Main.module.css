@@ -23,7 +23,7 @@
     line-height: 1.5;
 }
 
-.wts_text_head{
+.text_head{
     font-size: 48px;
     font-weight: 700;
     margin: 69px 0 45px 0;
@@ -31,10 +31,89 @@
 
 .fast_starting{
     display: inherit;
-    flex-direction: row;
+    flex-direction: column;
     box-sizing: inherit;
     margin: 200px 0 0 0;
     height: max-content;
     align-content: stretch;
-    background-color: aquamarine;
 }
+
+.fs_head{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: max-content;
+}
+
+.icon_heading{
+    margin: 0 0 0 -20px;
+}
+
+.fs_text_head{
+    font-size: 48px;
+    font-weight: 700;
+    vertical-align: middle;
+    margin: 30px 20px;
+}
+
+.fs_text{
+    opacity: 0.5;
+    margin: 20px 0 80px 5px;
+}
+
+.fs_table{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    height: max-content;
+    border-color: blueviolet;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+
+.fs_table1{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: max-content;
+    font-size: 36px;
+    font-weight: 700;
+    border: 0px;
+    padding: 0;
+	margin: 0;
+}
+
+.fs_table2{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: calc(max-content);
+    border: 0;
+    padding: 20px 0;
+    padding: 0;
+	margin: 0;
+}
+
+.fs_table3{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: max-content;
+    opacity: 0.5;
+    padding: 0;
+	margin: 0;
+}
+
+.fs_tab_item{
+    width: 25%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
