@@ -31,69 +31,64 @@ const Main = () => {
 
 
         <div className={styles.fast_starting}>
-
           <div className={styles.fs_head}>
             <img src={IH} alt="" className={styles.icon_heading} />
-
             <div className={styles.fs_text_head}>
               Быстрый старт
             </div>
           </div>
-
+          
           <div className={styles.fs_text}>
             Больше 90% учеников прошли полный курс и смогли
             <br />собрать свой первый компьютер
           </div>
 
-          <table className={styles.fs_table}>
-
-            <tr className={styles.fs_table1}>
-              <td className={styles.fs_tab_item}>
+          <div className={styles.fs_table}>
+            <div className={styles.fs_table1}>
+              <div className={styles.fs_tab_item}>
                 100%
-              </td>
-              <td className={styles.fs_tab_item}>
+              </div>
+              <div className={styles.fs_tab_item}>
                 75%
-              </td>
-              <td className={styles.fs_tab_item}>
+              </div>
+              <div className={styles.fs_tab_item}>
                 50%
-              </td>
-              <td className={styles.fs_tab_item}>
+              </div>
+              <div className={styles.fs_tab_item}>
                 Итог
-              </td>
-            </tr>
+              </div>
+            </div>
 
-            <tr className={styles.fs_table2}>
-              <td className={styles.fs_tab_item}>
+            <div className={styles.fs_table2}>
+              <div className={styles.fs_tab_item1}>
                 <img src={rec_1} alt="" />
-              </td>
-              <td className={styles.fs_tab_item}>
+              </div>
+              <div className={styles.fs_tab_item2}>
                 <img src={rec_2} alt="" />
-              </td>
-              <td className={styles.fs_tab_item}>
+              </div>
+              <div className={styles.fs_tab_item3}>
                 <img src={rec_3} alt="" />
-              </td>
-              <td className={styles.fs_tab_item}>
+              </div>
+              <div className={styles.fs_tab_item4}>
                 <img src={rec_4} alt="" />
-              </td>
-            </tr>
+              </div>
+            </div>
 
-            <tr className={styles.fs_table3}>
-              <td className={styles.fs_tab_item}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis maxime eum blanditiis recusandae quia dignissimos ex exercitationem repellendus repudiandae nam tenetur non culpa, nihil expedita? Magni, similique. Provident, ipsum laudantium.
-              </td>
-              <td className={styles.fs_tab_item}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis qui, molestias, ab dolorum temporibus vel adipisci maxime velit obcaecati nostrum tempore sequi officiis numquam aut. Aliquam magnam magni quidem architecto minus ipsam iure autem doloribus? Possimus, qui autem sit alias, saepe hic quidem ipsum laboriosam odit modi quas provident ipsa?
-              </td>
-              <td className={styles.fs_tab_item}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ducimus expedita, corrupti quia adipisci amet assumenda impedit nulla iste voluptatem. Harum ducimus unde sed incidunt maiores accusamus rerum id, assumenda debitis. Deleniti fugit fugiat perspiciatis aliquam error, officia provident dolore neque suscipit minus magni iusto enim ab at pariatur voluptatibus deserunt quis iste maiores! Molestias deserunt, animi blanditiis labore facilis in beatae modi quidem! Commodi voluptatum omnis, repellat quibusdam delectus molestias facere expedita. Molestiae nulla sit non veritatis magnam provident, voluptate inventore enim, voluptatibus dolorum reiciendis officia animi. Maiores aut eos provident commodi in at dolor dolore nisi ipsum omnis?
-              </td>
-              <td className={styles.fs_tab_item}>
+            <div className={styles.fs_table3}>
+              <div className={styles.fs_tab_item5}>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus qui molestiae deserunt provident fugit vel veritatis voluptate delectus. Vero, deserunt.
+              </div>
+              <div className={styles.fs_tab_item5}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus corporis aperiam. Recusandae rem minima distinctio ab quidem atque facilis?
+              </div>
+              <di className={styles.fs_tab_item5}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, corporis quas amet non aperiam temporibus pariatur necessitatibus fuga itaque quos!
+              </di>
+              <div className={styles.fs_tab_item5}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. A velit impedit beatae est quibusdam ab odio repellat aperiam similique laudantium!
-              </td>
-            </tr>
-
-          </table>
-
+              </div>
+            </div>
+          </div>
         </div>
 
 
