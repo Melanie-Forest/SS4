@@ -3,8 +3,8 @@
     flex: 1 0 auto;
     flex-direction: row;
     box-sizing: border-box;
-    height: 120px;
-    width: 1899px;
+    height: 6.25%;
+    width: 100vw;
 }
 
 .header_box {
@@ -18,7 +18,7 @@
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    width: 1537px;
+    width: stretch;
     height: 120px;
 }
 
