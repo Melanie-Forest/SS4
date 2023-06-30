@@ -7,7 +7,7 @@
     color: white;
 }
 
-.what_it_is{
+.what_it_is {
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
@@ -16,20 +16,20 @@
     align-content: stretch
 }
 
-.wts_card{
+.wts_card {
     width: 50%;
     color: white;
     vertical-align: middle;
     line-height: 1.5;
 }
 
-.text_head{
+.text_head {
     font-size: 48px;
     font-weight: 700;
     margin: 69px 0 45px 0;
 }
 
-.fast_starting{
+.fast_starting {
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
@@ -38,104 +38,332 @@
     align-content: stretch;
 }
 
-.fs_head{
+.fs_head {
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
     height: max-content;
 }
 
-.icon_heading{
+.icon_heading {
     margin: 0 0 0 -20px;
 }
 
-.fs_text_head{
+.fs_text_head {
     font-size: 48px;
     font-weight: 700;
     vertical-align: middle;
     margin: 30px 20px;
 }
 
-.fs_text{
+.fs_text {
     opacity: 0.5;
     margin: 20px 0 80px 5px;
 }
 
-.fs_table{
+.fs_table {
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
 }
 
-.fs_table1{
+.fs_table1 {
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
     height: max-content;
+    margin: 0 0 20px 0;
     font-size: 36px;
     font-weight: 700;
-	margin: 0 0 20px 0;
+
 }
 
-.fs_table2{
+.fs_table2 {
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
     height: 80;
 }
 
-.fs_table3{
+.fs_table3 {
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
     height: max-content;
     opacity: 0.5;
     padding: 0;
-	margin: 0;
+    margin: 0;
 }
 
-.fs_tab_item{
+.fs_tab_item {
     box-sizing: inherit;
-    width: 25%; 
+    width: 25%;
 }
 
-.fs_tab_item1{
+.fs_tab_item1 {
     box-sizing: inherit;
     width: 25%;
     height: 80px;
 }
 
-.fs_tab_item2{
+.fs_tab_item2 {
     box-sizing: inherit;
-    width: 25%; 
+    width: 25%;
     height: 80px;
     padding: 10px 0;
 }
 
-.fs_tab_item3{
+.fs_tab_item3 {
     box-sizing: inherit;
-    width: 25%; 
+    width: 25%;
     height: 80px;
     padding: 25px 0;
 }
 
-.fs_tab_item4{
+.fs_tab_item4 {
     box-sizing: inherit;
-    width: 25%; 
+    width: 25%;
     height: 80px;
     padding: 27.5px 0;
 }
 
-.fs_tab_item5{
+.fs_tab_item5 {
     box-sizing: inherit;
-    width: 25%; 
+    width: 25%;
     padding: 35px 20px 0 0;
 }
 
+.skills {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 200px 0 0 0;
+}
 
+.sk_heading {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
 
+.sk_cardbox {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+}
 
+.sk_card {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    max-width: 33%;
+    padding: 120px 0 0 0;
+}
 
+.sk_card_logo {
+    width: max-content;
+    height: max-content;
+    margin: 0 auto 60px;
+}
 
+.sk_card_head {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+.sk_card_text {
+    opacity: 0.4;
+    margin: 15px;
+}
+
+.partners {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 200px 0 0 0;
+}
+
+.partners_head {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    font-size: 48px;
+    font-weight: 700;
+    height: max-content;
+}
+
+.p_text {
+    vertical-align: center;
+    height: inherit;
+    padding: 30px 20px;
+}
+
+.partners_table {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.partners_table_card {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    padding: 30px 60px;
+}
+
+.icon_head {
+    transform: rotate(180deg);
+    height: max-content;
+    width: min-content;
+}
+
+.program {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 200px auto 0 auto;
+    text-align: center;
+    width: 750px;
+}
+
+.pro_heading{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.pro_text{
+    opacity: 0.5;
+}
+
+.pro_gram{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    justify-content: center;
+    margin: 80px 0 0 0;
+}
+
+.pro_icon{
+    transform: rotate(135deg);
+    height: max-content;
+    width: min-content;
+    margin: 0 auto;
+
+}
+
+.pro_gram_col1{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    text-align: end;
+    margin-right: 60px;
+}
+
+.pro_gram_col2{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    text-align: start;
+    margin-left: 60px;
+}
+
+.pro_card{
+    padding-bottom: 10px;
+}
+
+.pro_card_space{
+    height: 95px;
+}
+
+.pro_gram_timeline{
+    
+}
+
+.pro_card_text1{
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.pro_card_text2{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.mentors{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 200px 0 0 0;
+}
+
+.mentors_head{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+}
+
+.men_heading{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.icon_men{
+    transform: rotate(315deg);
+    height: max-content;
+    width: min-content;
+}
+
+.mentors_cards{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    flex-wrap: wrap;
+    margin-top: 110px;
+}
+
+.mentors_card{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    text-align: center;
+    height: max-content;
+    width: 33%
+
+}
+
+.mentor_photo{
+    height: max-content;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.mentor_name{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.mentor_profession{
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.mentor_biography_button{
+    
+}
+
+.biography_button{
+    margin-top: 30px ;
+}
 
 

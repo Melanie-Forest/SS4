@@ -6,7 +6,15 @@ import rec_1 from "../../img/rec-100.svg"
 import rec_2 from "../../img/rec-75.svg"
 import rec_3 from "../../img/rec-50.svg"
 import rec_4 from "../../img/rec-last.svg"
-
+import logo1 from "../../img/icon-1.svg"
+import logo2 from "../../img/icon-2.svg"
+import logo3 from "../../img/icon-3.svg"
+import logo_p from "../../img/logo-p.svg"
+import line from "../../img/timeline.svg"
+import photo1 from "../../img/DmIv.svg"
+import photo2 from "../../img/DmIv2.svg"
+import photo3 from "../../img/DmIv3.svg"
+import b_button from "../../img/Bl-button.svg"
 
 const Main = () => {
   return (
@@ -37,7 +45,7 @@ const Main = () => {
               Быстрый старт
             </div>
           </div>
-          
+
           <div className={styles.fs_text}>
             Больше 90% учеников прошли полный курс и смогли
             <br />собрать свой первый компьютер
@@ -94,25 +102,270 @@ const Main = () => {
 
 
         <div className={styles.skills}>
-          3
+
+          <div className={styles.sk_heading}>
+            Получите профессию прямо сейчас
+          </div>
+
+          <div className={styles.sk_cardbox}>
+            <div className={styles.sk_card}>
+              <img src={logo1} alt="/" className={styles.sk_card_logo} />
+              <div className={styles.sk_card_head}>
+                Только практические
+                <br />навыки в работе
+              </div>
+              <div className={styles.sk_card_text}>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus alias fugiat, rerum impedit iste optio itaque animi nulla pariatur doloremque!
+              </div>
+            </div>
+            <div className={styles.sk_card}>
+              <img src={logo2} alt="/" className={styles.sk_card_logo} />
+              <div className={styles.sk_card_head}>
+                Только практические
+                <br />навыки в работе
+              </div>
+              <div className={styles.sk_card_text}>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus alias fugiat, rerum impedit iste optio itaque animi nulla pariatur doloremque!
+              </div>
+            </div>
+            <div className={styles.sk_card}>
+              <img src={logo3} alt="/" className={styles.sk_card_logo} />
+              <div className={styles.sk_card_head}>
+                Только практические
+                <br />навыки в работе
+              </div>
+              <div className={styles.sk_card_text}>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus alias fugiat, rerum impedit iste optio itaque animi nulla pariatur doloremque!
+              </div>
+            </div>
+          </div>
+
         </div>
 
 
 
         <div className={styles.partners}>
-          4
+          <div className={styles.partners_head}>
+            <img src={IH} alt="" className={styles.icon_head} />
+            <div className={styles.p_text}>
+              Партнеры - топовый бренды
+            </div>
+          </div>
+          <div className={styles.partners_table}>
+
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+            <div className={styles.partners_table_card}>
+              <img src={logo_p} alt="" className={styles.partners_logo} />
+            </div>
+
+          </div>
         </div>
 
 
 
         <div className={styles.program}>
-          5
+          <img src={IH} alt="" className={styles.pro_icon} />
+
+          <div className={styles.pro_heading}>
+            Программа обучения
+          </div>
+
+          <div className={styles.pro_text}>
+            Больше 90% учеников прошли полный курс и смогли 
+            <br />собрать свой первый компьютер
+          </div>
+
+          <div className={styles.pro_gram}>
+
+            <div className={styles.pro_gram_col1}>
+
+              <div className={styles.pro_card}>
+                <div className={styles.pro_card_text1}>
+                  Неделя X
+                </div>
+                <div className={styles.pro_card_text2}>
+                  Красивая часть курса,
+                  <br />которая помогает в успехе
+                </div>
+              </div>
+
+              <div className={styles.pro_card_space}>
+
+              </div>
+
+              <div className={styles.pro_card}>
+                <div className={styles.pro_card_text1}>
+                  Неделя X
+                </div>
+                <div className={styles.pro_card_text2}>
+                  Красивая часть курса,
+                  <br />которая помогает в успехе
+                </div>
+              </div>
+
+              <div className={styles.pro_card_space}>
+                
+              </div>
+
+              <div className={styles.pro_card}>
+                <div className={styles.pro_card_text1}>
+                  Неделя X
+                </div>
+                <div className={styles.pro_card_text2}>
+                  Красивая часть курса,
+                  <br />которая помогает в успехе
+                </div>
+              </div>
+
+              <div className={styles.pro_card_space}>
+                
+              </div>
+
+              <div className={styles.pro_card}>
+                <div className={styles.pro_card_text1}>
+                  Неделя X
+                </div>
+                <div className={styles.pro_card_text2}>
+                  Красивая часть курса,
+                  <br />которая помогает в успехе
+                </div>
+              </div>
+              
+            </div>
+
+            <div className={styles.pro_gram_timeline}>
+              <img src={line} alt="" className={styles.timeline} />
+            </div>
+
+            <div className={styles.pro_gram_col2}>
+
+              <div className={styles.pro_card_space}>
+                
+              </div>
+
+              <div className={styles.pro_card}>
+                <div className={styles.pro_card_text1}>
+                  Неделя X
+                </div>
+                <div className={styles.pro_card_text2}>
+                  Красивая часть курса,
+                  <br />которая помогает в успехе
+                </div>
+              </div>
+
+              <div className={styles.pro_card_space}>
+                
+              </div>
+
+              <div className={styles.pro_card}>
+                <div className={styles.pro_card_text1}>
+                  Неделя X
+                </div>
+                <div className={styles.pro_card_text2}>
+                  Красивая часть курса,
+                  <br />которая помогает в успехе
+                </div>
+              </div>
+
+              <div className={styles.pro_card_space}>
+                
+              </div>
+
+              <div className={styles.pro_card}>
+                <div className={styles.pro_card_text1}>
+                  Неделя X
+                </div>
+                <div className={styles.pro_card_text2}>
+                  Красивая часть курса,
+                  <br />которая помогает в успехе
+                </div>
+              </div>
+
+              <div className={styles.pro_card_space}>
+                
+              </div>
+
+            </div>
+            
+          </div>
+
         </div>
 
 
 
         <div className={styles.mentors}>
-          6
+
+          <div className={styles.mentors_head}>
+            <img src={IH} alt="" className={styles.icon_men} />
+            <div className={styles.men_heading}>
+              Ваши преподаватели
+            </div>
+          </div>
+
+          <div className={styles.mentors_cards}>
+
+            <div className={styles.mentors_card}>
+              <img src={photo1} alt="" className={styles.mentor_photo} />
+              <div className={styles.mentor_name}>
+                Дмитрий Иванов
+              </div>
+              <div className={styles.mentor_profession}>
+                Специалист по видеокартам
+              </div>
+              <a href="/" className={styles.mentor_biography_button}>
+                <img src={b_button} alt="" className={styles.biography_button} />
+              </a>
+            </div>
+
+            <div className={styles.mentors_card}>
+              <img src={photo2} alt="" className={styles.mentor_photo} />
+              <div className={styles.mentor_name}>
+                Дмитрий Иванов
+              </div>
+              <div className={styles.mentor_profession}>
+                Специалист по видеокартам
+              </div>
+              <a href="/" className={styles.mentor_biography_button}>
+                <img src={b_button} alt="" className={styles.biography_button} />
+              </a>
+            </div>
+
+            <div className={styles.mentors_card}>
+              <img src={photo3} alt="" className={styles.mentor_photo} />
+              <div className={styles.mentor_name}>
+                Дмитрий Иванов
+              </div>
+              <div className={styles.mentor_profession}>
+                Специалист по видеокартам
+              </div>
+              <a href="/" className={styles.mentor_biography_button}>
+                <img src={b_button} alt="" className={styles.biography_button} />
+              </a>
+            </div>
+
+          </div>
+
         </div>
 
       </main>
