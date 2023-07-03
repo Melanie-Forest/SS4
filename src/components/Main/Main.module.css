@@ -3,7 +3,7 @@
     flex: 2 0 auto;
     flex-direction: column;
     box-sizing: border-box;
-    margin: 0 291px 0 312px;
+    margin: 0 16.25vw;
     color: white;
 }
 
@@ -11,9 +11,15 @@
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
-    margin: 200px 0 0 0;
+    margin: 10.4vw 0 0 0;
     height: max-content;
-    align-content: stretch
+    align-content: stretch;
+    
+}
+
+.wts_pic{
+    width: 27.395vw;
+    height: 28.23vw;
 }
 
 .wts_card {
@@ -24,16 +30,17 @@
 }
 
 .text_head {
-    font-size: 48px;
+    font-size: 2.5vw;
     font-weight: 700;
-    margin: 69px 0 45px 0;
+    margin: 3.59375vw 0 2.34375vw 0;
 }
+
 
 .fast_starting {
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    margin: 200px 0 0 0;
+    margin: 10.4vw 0 0 0;
     height: max-content;
     align-content: stretch;
 }
@@ -46,19 +53,21 @@
 }
 
 .icon_heading {
-    margin: 0 0 0 -20px;
+    margin: 0 0 0 -1.042vw;
+    height: 6.615vw;
+    width: 6.615vw;
 }
 
 .fs_text_head {
-    font-size: 48px;
+    font-size: 2.5vw;
     font-weight: 700;
     vertical-align: middle;
-    margin: 30px 20px;
+    margin: 1.5625vw 1.042vw;
 }
 
 .fs_text {
     opacity: 0.5;
-    margin: 20px 0 80px 5px;
+    margin: 1.042vw 0 4.16vw 0.26vw;
 }
 
 .fs_table {
@@ -72,8 +81,8 @@
     flex-direction: row;
     box-sizing: inherit;
     height: max-content;
-    margin: 0 0 20px 0;
-    font-size: 36px;
+    margin: 0 0 1.042vw 0;
+    font-size: 1.875vw;
     font-weight: 700;
 
 }
@@ -82,7 +91,7 @@
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
-    height: 80;
+    height: 4.16vw;
 }
 
 .fs_table3 {
@@ -101,47 +110,55 @@
 }
 
 .fs_tab_item1 {
-    box-sizing: inherit;
-    width: 25%;
-    height: 80px;
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
 }
 
 .fs_tab_item2 {
-    box-sizing: inherit;
-    width: 25%;
-    height: 80px;
-    padding: 10px 0;
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
+    padding: 0.52vw 0;
 }
 
 .fs_tab_item3 {
-    box-sizing: inherit;
-    width: 25%;
-    height: 80px;
-    padding: 25px 0;
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
+    padding: 1.3vw 0;
 }
 
 .fs_tab_item4 {
-    box-sizing: inherit;
-    width: 25%;
-    height: 80px;
-    padding: 27.5px 0;
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
+    padding: 1.823vw 0;
 }
 
 .fs_tab_item5 {
     box-sizing: inherit;
     width: 25%;
-    padding: 35px 20px 0 0;
+    padding: 1.823vw 1.042vw 0 0;
 }
 
 .skills {
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    margin: 200px 0 0 0;
+    margin: 10.416vw 0 0 0;
 }
 
 .sk_heading {
-    font-size: 48px;
+    font-size: 2.5vw;
     font-weight: 700;
     text-align: center;
 }
@@ -160,39 +177,38 @@
     vertical-align: middle;
     text-align: center;
     margin: 0;
-    max-width: 33%;
-    padding: 120px 0 0 0;
+    padding: 6.25vw 0 0 0;
 }
 
 .sk_card_logo {
-    width: max-content;
+    width: 5.2vw;
     height: max-content;
-    margin: 0 auto 60px;
+    margin: 0 auto 3.125vw;
 }
 
 .sk_card_head {
-    font-size: 24px;
+    font-size: 1.25vw;
     font-weight: 500;
-    margin: 0 0 30px 0;
+    margin: 0 0 1.5625vw 0;
 }
 
 .sk_card_text {
     opacity: 0.4;
-    margin: 15px;
+    margin: 0.78125vw;
 }
 
 .partners {
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    margin: 200px 0 0 0;
+    margin: 10.416vw 0 0 0;
 }
 
 .partners_head {
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
-    font-size: 48px;
+    font-size: 2.5vw;
     font-weight: 700;
     height: max-content;
 }
@@ -200,7 +216,7 @@
 .p_text {
     vertical-align: center;
     height: inherit;
-    padding: 30px 20px;
+    padding: 1.5625vw 1.042vw;
 }
 
 .partners_table {
@@ -209,35 +225,40 @@
     box-sizing: inherit;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 60px 0;
+    padding: 3.125vw 0;
 }
 
 .partners_table_card {
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    padding: 30px 60px;
+    padding: 1.5625vw 3.125vw;
+}
+
+.partners_logo{
+    height: 4.84375vw;
+    width: 10.15625vw;
 }
 
 .icon_head {
     transform: rotate(180deg);
-    height: max-content;
-    width: min-content;
+    height: 6.615vw;
+    width: 6.615vw;
 }
 
 .program {
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    margin: 200px auto 0 auto;
+    margin: 10.416vw auto 0 auto;
     text-align: center;
-    width: 750px;
+    width: 39.0625vw;
 }
 
 .pro_heading{
-    font-size: 48px;
+    font-size: 2.5vw;
     font-weight: 700;
-    padding: 30px;
+    padding: 1.5625vw;
 }
 
 .pro_text{
@@ -249,13 +270,13 @@
     flex-direction: row;
     box-sizing: inherit;
     justify-content: center;
-    margin: 80px 0 0 0;
+    margin: 4.16vw 0 0 0;
 }
 
 .pro_icon{
     transform: rotate(135deg);
-    height: max-content;
-    width: min-content;
+    height: 6.615vw;
+    width: 6.615vw;
     margin: 0 auto;
 
 }
@@ -265,7 +286,7 @@
     flex-direction: column;
     box-sizing: inherit;
     text-align: end;
-    margin-right: 60px;
+    margin-right: 3.125vw;
 }
 
 .pro_gram_col2{
@@ -273,36 +294,36 @@
     flex-direction: column;
     box-sizing: inherit;
     text-align: start;
-    margin-left: 60px;
+    margin-left: 3.125vw;
 }
 
 .pro_card{
-    padding-bottom: 10px;
+    padding-bottom: 0.52vw;
 }
 
 .pro_card_space{
-    height: 95px;
+    height: 4.95vw;
 }
 
-.pro_gram_timeline{
-    
+.timeline{
+    width: 0.3125vw;
 }
 
 .pro_card_text1{
-    font-size: 14px;
+    font-size: 0.73vw;
     opacity: 0.5;
 }
 
 .pro_card_text2{
-    font-size: 18px;
-    margin-top: 15px;
+    font-size: 0.9375vw;
+    margin-top: 0.78125vw;
 }
 
 .mentors{
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    margin: 200px 0 0 0;
+    margin: 10.416vw 0 0 0;
 }
 
 .mentors_head{
@@ -312,15 +333,15 @@
 }
 
 .men_heading{
-    font-size: 48px;
+    font-size: 2.5vw;
     font-weight: 700;
-    padding: 30px;
+    padding: 1.5625vw;
 }
 
 .icon_men{
     transform: rotate(315deg);
-    height: max-content;
-    width: min-content;
+    height: 6.615vw;
+    width: 6.615vw;
 }
 
 .mentors_cards{
@@ -328,7 +349,7 @@
     flex-direction: row;
     box-sizing: inherit;
     flex-wrap: wrap;
-    margin-top: 110px;
+    margin-top: 5.73vw;
 }
 
 .mentors_card{
@@ -342,19 +363,19 @@
 }
 
 .mentor_photo{
-    height: max-content;
-    width: max-content;
+    height: 9.896vw;
+    width: 9.896vw;
     margin: 0 auto;
 }
 
 .mentor_name{
-    font-size: 24px;
+    font-size: 1.25vw;
     font-weight: 500;
-    margin-top: 40px;
+    margin-top: 2.083vw;
 }
 
 .mentor_profession{
-    margin-top: 15px;
+    margin-top: 0.78125vw;
     opacity: 0.8;
 }
 
@@ -363,7 +384,9 @@
 }
 
 .biography_button{
-    margin-top: 30px ;
+    margin-top: 1.5625vw;
+    height: 2.3vw;
+    width: 7.5vw;
 }
 
 

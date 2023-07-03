@@ -58,8 +58,8 @@ const Main = () => {
         <div className={styles.Main_line}>
 
           <div className={styles.Main_line_button}>
-            <a href='/' className={styles.Main_line_button}>
-              <img src={button1} alt="" />
+            <a href='/' >
+              <img src={button1} alt="" className={styles.line_b}/>
             </a>
           </div>
 
@@ -117,7 +117,7 @@ const Main = () => {
               <div className={styles.bar_box3}>
                 0
               </div>
-              <div className={styles.bar_box4}>
+              <div className={styles.bar_box3}>
                 1 000 000 
               </div>
             </div>

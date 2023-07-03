@@ -3,16 +3,17 @@
     flex: 2 0 auto;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 0 auto;
+    
 }
 
 .Main_page{
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    height: min-content;
+    height: 37vw;
     width: 100vw;
-    color: white;
+    color: aliceblue;
+    padding: 0 16.25vw;      
 }
 
 .Main_page_box{
@@ -20,23 +21,26 @@
     flex-direction: column;
     box-sizing: inherit;
     justify-content: flex-start;
-    padding: 10% 16% 15% 16%;
-    width: 100vw;
+    margin: 7.8125vw 0 11.35vw 0;
+    width: 67.5vw;
+    height: 37vw;
 }
 
-.Main_page_h{ 
-    font-size: 64px;
+.Main_page_h{
+    font-size: 3.33vw;
     font-weight: 700;
-    padding: 0 0 50px 0;
+    height: 9.375vw;
+    width: 47.9vw;
+    margin: 0 0 2.6vw 0;
 }
 
 .Main_page_timer{
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
-    height: max-content;
-    width: 58%;
-    justify-content: space-between;   
+    height: 5.83vw;
+    width: 27.1875vw;
+    justify-content: space-between;
 }
 
 .Main_page_timer_item{
@@ -45,15 +49,15 @@
     box-sizing: inherit;
     justify-content: center;
     text-align: center;
-    width: fit-content;
-    height: fit-content;
+    width: 6vw;
+    height: 5.78125vw;
     background-color: #121212;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 1.04vw 1.5625vw;
 }
 
 .Main_page_timer_count{
-    font-size: 36px;
+    font-size: 1.875vw;
     font-weight: 700;
 }
 
@@ -66,9 +70,9 @@
     flex-direction: row;
     box-sizing: inherit;
     background-color: #121212;
-    padding: 36px;
+    padding: 1.875vw 16.25vw;
     width: 100vw;
-    height: 130px;
+    height: 6.77vw;
     color:white;
 }
 
@@ -77,6 +81,11 @@
     flex-direction: column;
     box-sizing: inherit;
     justify-content: center;
+}
+
+.line_b{
+    height: 2.3vw;
+    width: 8.8vw;
 }
 
 .line_button{
@@ -89,18 +98,17 @@
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    width: 8,85%;
-    height: 44px;
+    width: 8.8vw;
+    height: 2.3vw;
     border-color: none;
-    
 }
 
 .line_table{
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
-    padding: 0 81px;
-    width: 413px;
+    padding: 0 4.21875vw;
+    width: 21.51vw;
     vertical-align: middle;
 }
 
@@ -108,7 +116,7 @@
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    width: 223px;
+    width: 11.6145vw;
     opacity: 0.4;
 }
 
@@ -116,7 +124,7 @@
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    width: 28px;
+    width: 1.458vw;
     font-weight: 700; 
 }
 
@@ -124,22 +132,21 @@
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    height: 24px;
+    height: 1.25vw;
 }
 
 .center_line_bar{
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
-    height: 10px;
-    
+    height: 0.52vw;
 }
 
 .line_bar{
     display: inherit;
     flex-direction: column;
     box-sizing: inherit;
-    width: 714px;
+    width: 37.1875vw;
     
 }
 
@@ -147,9 +154,9 @@
     display: inherit;
     flex-direction: row;
     box-sizing: inherit;
-    height: 24px;
+    height: 1.25vw;
     vertical-align: middle;
-    margin: 0 0 8px 0;
+    margin: 0 0 0.416vw 0;
 }
 
 .bar_box1{
@@ -158,7 +165,7 @@
 
 .bar_box2{
     font-weight: 700; 
-    margin: 0 30px;
+    margin: 0 1.5625vw;
 }
 
 .line_bar_box2{
@@ -166,9 +173,9 @@
     flex-direction: row;
     box-sizing: inherit;
     justify-content: space-between;
-    height: 24px;
+    height: 1.25;
     vertical-align: middle;
-    margin: 5px 0 8px 0;
+    margin: 0.26vw 0 0.416vw 0;
 }
 
 .bar_box3{
@@ -176,20 +183,15 @@
     display: inherit;
 }
 
-.bar_box4{
-    opacity: 0.4;
-    display: inherit;
-}
-
 .pg_neeed{
-    width: 440px;
-    height: 6px;
+    width: 22.916vw;
+    height: 0.3125vw;
     background-image: url(../../img/costline1.svg);
 }
 
 .pg_compleete{
-    width: 274px;
-    height: 6px;
-    background-image: url(../../img/costline2.svg);
+    width: 14.27vw;
+    height: 0.3125vw;
+    background-image: url(../../img/costline2.svg) ;
 }
 

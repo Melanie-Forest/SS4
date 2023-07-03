@@ -24,7 +24,7 @@ const Main = () => {
         <div className={styles.what_it_is}>
 
           <div className={styles.wts_card}>
-            <img src={ABOUT} alt="picture" />
+            <img src={ABOUT} alt="picture" className={styles.wts_pic} />
           </div>
 
           <div className={styles.wts_card}>
@@ -68,17 +68,17 @@ const Main = () => {
             </div>
 
             <div className={styles.fs_table2}>
-              <div className={styles.fs_tab_item1}>
-                <img src={rec_1} alt="" />
+              <div >
+                <img src={rec_1} alt="" className={styles.fs_tab_item1}/>
               </div>
-              <div className={styles.fs_tab_item2}>
-                <img src={rec_2} alt="" />
+              <div >
+                <img src={rec_2} alt="" className={styles.fs_tab_item2}/>
               </div>
-              <div className={styles.fs_tab_item3}>
-                <img src={rec_3} alt="" />
+              <div >
+                <img src={rec_3} alt="" className={styles.fs_tab_item3}/>
               </div>
-              <div className={styles.fs_tab_item4}>
-                <img src={rec_4} alt="" />
+              <div >
+                <img src={rec_4} alt="" className={styles.fs_tab_item4}/>
               </div>
             </div>
 
@@ -184,7 +184,7 @@ const Main = () => {
 
 
 
-        <div className={styles.program}>
+        <div className={styles.program}> 
           <img src={IH} alt="" className={styles.pro_icon} />
 
           <div className={styles.pro_heading}>

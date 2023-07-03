@@ -9,8 +9,8 @@ const Header = () => {
       <header className={styles.Header}>
 
         <div className={styles.header_box}>
-          <a href="/" className={styles.header_link}>
-            <img src={Logo} alt="logo" />
+          <a href="/" >
+            <img src={Logo} alt="logo" className={styles.header_link}/>
           </a>
         </div>
 
@@ -63,8 +63,6 @@ const Header = () => {
             <img src={User} alt="lk" className={styles.user_button} />
           </a>
         </div>
-
-        
 
       </header>
     </>

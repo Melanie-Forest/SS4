@@ -42,25 +42,25 @@ const Footer = () => {
 
             <div className={styles.footer_icon}>
               <a href="/" className={styles.footer_link}>
-                <img src={VK} alt="vk" />
+                <img src={VK} alt="vk" className={styles.footer_l} />
               </a>
             </div>
 
             <div className={styles.footer_icon}>
               <a href="/" className={styles.footer_link}>
-                <img src={UT} alt="ut" />
+                <img src={UT} alt="ut" className={styles.footer_l} />
               </a>
             </div>
 
             <div className={styles.footer_icon}>
               <a href="/" className={styles.footer_link}>
-                <img src={IN} alt="in" />
+                <img src={IN} alt="in" className={styles.footer_l} />
               </a>
             </div>
 
             <div className={styles.footer_icon}>
               <a href="/" className={styles.footer_link}>
-                <img src={FB} alt="fb" />
+                <img src={FB} alt="fb" className={styles.footer_l} />
               </a>
             </div>
 
